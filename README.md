@@ -70,7 +70,7 @@ The system is a **hybrid pipeline**: an object-detection model finds *where* the
 
 The system starts from a static template describing where every terminal should sit on the DIN rail.
 
-![Digital template used as input](assets/images/digital-template-input.jpg)
+![Digital template used as input](assets/images/digital_template_input.jpg)
 
 **2. Cropping — the cropped strip from the digital template for OCR**
 
@@ -94,13 +94,13 @@ Each segment is small and clean, which gives Tesseract far better accuracy than 
 
 The trained model detects the region containing the terminal position numbers (shown highlighted) and crops it for further processing.
 
-![YOLOv5 detecting the position-number region](assets/images/terminal-detection.jpg)
+![YOLOv5 detecting the position-number region](assets/images/terminal_detection.jpg)
 
 **5. Output — missing terminals highlighted**
 
 After matching OCR results against the metadata, the missing terminals are marked with red boxes on the original template.
 
-![Missing terminals highlighted with red boxes](assets/images/missing-terminals-highlighted.jpg)
+![Missing terminals highlighted with red boxes](assets/images/missing_terminals_highlighted.jpg)
 
 ## Architecture
 
