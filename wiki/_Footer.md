@@ -1,1 +1,0 @@
-**Detecting and Highlighting Terminals on Digital Templates Using AI** — by [Arslan Zafar](https://www.linkedin.com/in/arslanzafar-pro/) · Master of Software Engineering for Industrial Applications · Built on [Ultralytics YOLOv5](https://docs.ultralytics.com/models) (AGPL-3.0)
